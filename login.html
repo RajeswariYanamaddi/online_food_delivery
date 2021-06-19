@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Comptible" content="ie=edge">
+    <link rel="stylesheet" href="login.css">
+    <title>login form</title>
+</head>
+<body>
+    <div class="login">
+        <form action="" class="form">
+            <h2>urban spoon</h2>
+            <div class="input-group">
+                <input type="text" name="loginUser" id="loginUser" required>
+                <label for="loginUser">User Name</label>
+            </div>
+            <div class="input-group">
+                <input type="password" name="loginPassword" id="loginPassword" required>
+                <label for="loginPassword">Password</label>
+            </div>
+            <input type="submit"onclick="alert('Thanks For Log-in')" value="login" class="submit-btn">
+            <a href="#forgot-pw" class="forgot-pw">Forgot Password?</a>
+            <a href="registerform.html" class="forgot-pw">  Don't have an account signup?</a>
+        </form>
+        <div id="forgot-pw">
+         <form action=""class="form">
+             <a href="#" class="close">&times;</a>
+             <h2>Reset Password</h2>
+             <div class="input-group">
+                <input type="email" name="email" id="email"required>
+                <label for="email">Email</label>
+         </form>   
+        </div>
+    </div>
+    
+</body>
+</html>
